@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:  hsl(218, 23%, 16%);
+    font-family:Manrope ;
+    display: grid;
+    place-items: center;
+}
+
+.main{
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 20px ;
+    height: 37vh;
+    display: grid;
+    place-items: center;
+    margin-top: 200px ;
+    text-align: center;
+    padding: 20px 20px;
+}
+.advice{
+    color: white;
+    font-size: 28px;
+    font-weight: lighter;
+}
+h1{
+    color:  hsl(150, 100%, 66%);
+    font-size: x-large;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+q{
+    height: 100px;
+    width: 400px;
+}
+.line-img{
+    margin-top: 30px;
+}
+
+
+.dice-img{
+    background-color: hsl(150, 100%, 66%);
+    height: 57px; 
+    width: 57px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.dice-img img{
+    margin-top: 13px;
+}
